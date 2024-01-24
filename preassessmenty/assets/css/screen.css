@@ -63,10 +63,26 @@ text-shadow: -1px -1px 0 black,
    h4{color: rgb(201, 201, 198);
 
   }
+  p{
+	padding: 0px 20px;
+	
+  }
 
-   #content p a :hover{
+  #GGs:hover
+  {
 	background-color: rgb(160, 17, 168);
-  }/**/
+	transition: 0.15s;
+  }/**/ 
+#dav{
+	float: right;
+	background-color: #ffffff;
+	padding:2px;
+	border: 2px solid #000000;
+	margin: 5px;
+	
+	
+
+}
 
 #nav {
 	background-color: #000;

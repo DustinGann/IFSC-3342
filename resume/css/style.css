@@ -299,13 +299,64 @@ main{
   padding-bottom:50px
   } 
   
+
+  #about > ul{
+
+    padding: 0px 0px 25px 0px ;
+    margin: 0px 0px 40px 0px ;
+  }
   
   
   
-  
+
   
   
 }
+
+/*       ppppp    sdcasaws      ppppp           */
+
+@media screen and (min-width:992px) {
+
+
+
+
+
+  .container{
+    width:890px;
+  }
+  
+  main.container{
+    grid-template-columns: 1fr auto;
+    gap:2em;
+    grid-template-areas:
+      "title  title title"
+      "about  about skills"
+      "about  about  education"
+      "about about ......";
+  }
+
+  #about{
+    display:grid;
+    grid-template-columns: 1fr auto;
+    gap:1em;
+    grid-template-areas:
+      "details  bio"
+      "......  related"
+    }
+
+     #bio img{
+
+      size: 10px;
+    }
+
+    
+      
+    }
+
+  
+}
+
+
 
 
 /*----------------------Edge Case Tweaks-----------------------*/

@@ -334,24 +334,33 @@ main{
       "about  about  education"
       "about about ......";
   }
+  h1.page-title{
 
+    font-size: 3.7rem;
+  }
   #about{
+    
     display:grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns:  1fr 1 fr auto;
     gap:1em;
     grid-template-areas:
-      "details  bio"
+      "  bio details"
       "......  related"
-    }
 
-     #bio img{
-
-      size: 10px;
+     
     }
 
     
-      
+
+    p{
+
+      border-left:2px solid #999;
     }
+    
+
+    
+      
+    
 
   
 }

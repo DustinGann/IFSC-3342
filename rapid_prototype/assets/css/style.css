@@ -1,5 +1,28 @@
 .container {
     width: 420px; /* Design Time */
     margin: 0 auto;
-    background: rgb(203, 198, 203);
+    background-color: rgb(207,90,40,.9) ;
+    padding: 0px;
+    
+    background-image: url("/rapid_prototype/assets/img/rust.jpg");
+   
+    
   }
+  header h1{
+padding: 20px 10px 0px 10px;
+  }
+
+  main{padding: 15px 20px 30px 20px;
+  }
+
+  header{
+    background-image: url("/rapid_prototype/assets/img/steel.jpg") ;
+    background-size:cover;
+  }
+
+header img{
+
+  padding: 20px;
+  width: 400px;
+}
+

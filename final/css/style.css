@@ -1,0 +1,148 @@
+
+
+img {
+    max-width: 100%;
+  }
+
+
+  header h1{
+    padding: 20px 10px 0px 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+   
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+
+      }
+
+  header img {
+    
+    padding: 0px 0px 10px 0px ;
+  
+    
+  }
+    
+      main{padding: 15px 20px 30px 20px;
+      }
+    
+      header{
+        background-image: url("/rapid_prototype/assets/img/steel.jpg") ;
+        background-size:cover;
+      }
+
+      nav{
+
+        background-color: aliceblue;
+        
+        margin: 0px auto;
+      }
+
+      ul{
+        margin: 0px ;
+         text-decoration: none;
+      }
+      
+      nav ul {
+        
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+       padding: 0px;
+       
+        
+      }
+      
+      nav li {
+        text-decoration: none;
+        list-style-type: none;
+      }
+      
+      nav a:link, nav a:visited {
+        display: block;
+        padding: 8px 16px;
+        border: 1px solid rgba(109, 107, 109, 0.65);
+        text-align: center;
+        text-decoration: none;
+        
+        text-transform: uppercase;
+        font-size: 0.75em;
+        background: rgba(153, 152, 151, 0.65);
+        transition: background-color 0.5s ease;
+        color: #000000;
+        font-weight: 550;
+      }
+
+      nav a:hover {
+        background: rgba(0, 0, 0, 0.55);
+        color: rgba(255, 255, 255, 0.80);
+      }
+
+
+
+
+  
+  
+  .container {
+    width: 420px; /* Design Time */
+    margin: 0 auto;
+    background-color: rgb(207,90,40,.9) ;
+    padding: 0px;
+    
+    background-image: url("/rapid_prototype/assets/img/rust.jpg");
+   
+    
+  }
+
+  section#articles {
+    background-color: aliceblue;   
+    padding: 10px;
+    border-radius: 7.5px;
+  }
+
+  footer{
+
+    background-color: rgb(21, 15, 15); 
+    color: aliceblue;
+  }
+
+  footer h2{
+    padding:10px 20px 0px 20px;
+  }
+  footer p{
+
+    padding:0px 10px 0px 10px;
+    margin:0px;
+  }
+  footer h6 {
+    padding: 15px;
+    margin:0px;
+  }
+  
+
+
+  /* 768 */
+
+  @media screen and (min-width:768px){
+  
+  .container{
+    width:680px;
+  }
+
+}
+
+
+
+
+
+
+/* 980 */
+
+@media screen and (min-width:992px) {
+  .container{
+    width:890px;
+  }
+
+
+
+}

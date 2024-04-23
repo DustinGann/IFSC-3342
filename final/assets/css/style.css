@@ -89,10 +89,11 @@ img {
     background-color: rgb(207,90,40,.9) ;
     padding: 0px;
     
-    background-image: url("/rapid_prototype/assets/img/rust.jpg");
+    background-image: url("/final/assets/img/background-texture.jpg");
    
     
   }
+
 
   section#articles {
     background-color: aliceblue;   
@@ -100,9 +101,29 @@ img {
     border-radius: 7.5px;
   }
 
+  section#articles p{
+
+    font-size: 1.4rem;
+  }
+
+  section#articles img{
+    width: 120px;
+    padding: 0px 0px 30px 0px;
+    float:inline-start;
+  }
+
+  section#articles video{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 4.5px;
+  }
+
+
+
   footer{
 
-    background-color: rgb(21, 15, 15); 
+    background-color: rgb(46, 43, 43); 
     color: aliceblue;
   }
 
@@ -129,6 +150,22 @@ img {
     width:680px;
   }
 
+  nav ul {
+  
+  
+  gap:2em;
+ padding: 0px 20px ;
+    margin :auto;
+  }
+
+  nav a:link, nav a:visited {
+    border-radius: 5px;
+  }
+
+  nav a:hover {
+    border-radius: 6px;
+  }
+
 }
 
 
@@ -143,6 +180,22 @@ img {
     width:890px;
   }
 
+  header img{
+    max-width: 95%;
+    
+    display: block;
+margin-left: auto;
+margin-right: auto;
+  }
+
+  nav ul {
+  
+  
+    gap:3em;
+   padding: 0px 100px ;
+      
+  }
+  
 
 
 }

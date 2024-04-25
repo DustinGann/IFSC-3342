@@ -9,7 +9,7 @@ img {
   }
 
 
-  header h1{
+  header.primary h1{
     padding: 20px 10px 0px 10px;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -21,9 +21,11 @@ img {
 
       }
 
-  header img {
+  header.primary img {
     
     padding: 0px 0px 10px 0px ;
+
+    border-radius: 7px;
   
     
   }
@@ -31,7 +33,7 @@ img {
       main{padding: 15px 20px 30px 20px;
       }
     
-      header{
+      header.primary{
         background-image: url("/rapid_prototype/assets/img/steel.jpg") ;
         background-size:cover;
       }
@@ -99,7 +101,7 @@ img {
   }
 
 
-  section#articles {
+  section#articles  {
     background-color: aliceblue;   
     padding: 10px;
     border-radius: 7.5px;
@@ -132,7 +134,7 @@ clear: both;
     
   }
 
-  /* section#article  padding or something  */
+
 
   section#articles video{
     max-width: 100%;
@@ -164,6 +166,66 @@ clear: both;
   
 
 
+ 
+
+  section#monster{
+    background-color: rgb(11, 10, 10);   
+    color: rgb(13, 149, 40);
+    padding: 10px;
+    border-radius: 7.5px;
+     
+
+  
+     
+    } 
+
+    section#monster h2{
+      font-size: 30px;
+        padding: 0px 10px;
+
+    }
+
+    section#monster p{
+      padding: 0px 25px;
+      font-size:25px ;
+    }
+
+
+    #monster a {
+      border-radius: 3px;
+      border: 1px solid rgb(27, 103, 27);
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      color: #222222;
+      font-size: 0.95em;
+
+      
+
+     
+      background: rgb(13, 149, 40);
+      transition: background-color 0.5s ease;
+      color: #000000;
+      font-weight: 550;
+      
+    }
+
+
+   
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
   /* 768 */
 
   @media screen and (min-width:768px){
@@ -192,6 +254,7 @@ clear: both;
 
 
 
+  
 
 
 
@@ -208,7 +271,10 @@ clear: both;
     display: block;
 margin-left: auto;
 margin-right: auto;
+border-radius: 5px;
   }
+
+  
 
   nav ul {
   

@@ -158,9 +158,12 @@ clear: both;
 
   footer{
 
-    background-color: rgb(46, 43, 43); 
+    background-color: rgb(15, 15, 15); 
     color: aliceblue;
   }
+
+  
+
 
   footer h2{
     padding:10px 20px 0px 20px;
@@ -176,7 +179,7 @@ clear: both;
   }
   
 
-
+/*          other pages                 */
  
 
   section#monster{
@@ -272,7 +275,7 @@ clear: both;
 
    
 
-
+/* *//* breaking points */ /*  */
 
 
 

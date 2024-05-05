@@ -48,7 +48,8 @@ img {
       }
     
       header.primary{
-        background-image: url("/rapid_prototype/assets/img/steel.jpg") ;
+     
+        background-image: url("/final/assets/img/steel.jpg") ;
         background-size:cover;
       }
 

@@ -49,7 +49,10 @@ img {
     
       header.primary{
      
-        background-image: url("/final/assets/img/steel.jpg") ;
+        background-image:url(../img/steel.jpg) ;
+
+      
+        
         background-size:cover;
       }
 

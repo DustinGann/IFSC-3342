@@ -49,8 +49,8 @@ img {
     
       header.primary{
      
-       
-        background-image: url(img/steel.jpg);
+        background-image:url(../img/steel.jpg) ;
+        
 
       
         

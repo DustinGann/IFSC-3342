@@ -114,7 +114,8 @@ img {
     background-color: rgb(207,90,40,.9) ;
     padding: 0px;
     
-    background-image: url("/final/assets/img/background-texture.jpg");
+    background-image: url(../img/background-texture.jpg);
+  
    
     
   }
